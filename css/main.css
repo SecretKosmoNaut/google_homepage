@@ -126,5 +126,16 @@ a#reminder_link:hover {
 }
 
 div#canvas {
-	background-color: blue;
+	position: relative;
+	margin-top: 37px;
+	width: 100%; height: 233px;
+	text-align: center;
+}
+
+div#hplogo {
+	width: 408px; height: 230px;
+	background-image: url(../logos/2016halloween16/cta_bg.png);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
