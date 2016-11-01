@@ -223,3 +223,47 @@ a {
 a:hover {
 	cursor: default;
 }
+
+p {
+	position: relative;
+	text-align: center;
+	top: -8px;
+}
+
+p a {
+	color: #1a0dab;
+}
+
+p a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+div#footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%; height: 40px;
+	background-color: #f2f2f2;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #e4e4e4;
+	line-height: 40px;
+	color: #7d7d7d;
+}
+
+div.left {
+	margin-left: 30px;
+}
+
+div.right {
+	float: right;
+	margin-right: 30px;
+}
+
+div.left div {
+	margin-right: 30px;
+}
+
+div.right div {
+	margin-left: 30px;
+}
